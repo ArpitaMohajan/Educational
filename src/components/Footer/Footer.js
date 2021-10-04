@@ -2,6 +2,7 @@ import { faMapMarkedAlt, faPhoneVolume } from '@fortawesome/free-solid-svg-icons
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import './Footer.css'
+
 const Footer = () => {
     return (
         <div>
@@ -10,14 +11,11 @@ const Footer = () => {
                     <div className="row">
                         <div className="col-md-5">
                             <div className="left-container text-start">
-                                <h1>Biona Sports Club</h1>
-
+                                <h1>Our Music School</h1>
 
                                 <p className="mt-4 ">
                                     <small>
-                                        *These statements have not been evaluated by the Food and
-                                        Drug Administration. These products are not intended to
-                                        diagnose.
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque unde molestiae accusamus dolorem quam quis alias repellendus, doloremque sit eius, quia at. Vel, ratione corrupti? Mollitia dolores ipsum veniam quas?
                                     </small>
                                 </p>
 
