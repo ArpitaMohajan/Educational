@@ -70,8 +70,8 @@ const Footer = () => {
                                     </div>
                                     <div>
                                         <p>
-                                            20 Broadway, London, NY 038,
-                                            <br /> 104 2nd Avenue, London, NY 100
+                                            20 Broadway, California, NY 038,
+                                            <br /> 104 2nd Avenue, California, U.S.A 100
                                         </p>
                                     </div>
                                 </div>
