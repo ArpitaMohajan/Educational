@@ -20,10 +20,10 @@ const Services = () => {
     }, [services]);
     return (
         <div>
-
+            <MenuBar></MenuBar>
 
             <div className="container all-teams">
-                <MenuBar></MenuBar>
+
                 <div className="all-team">
                     <h1>Our Services</h1>
                 </div>

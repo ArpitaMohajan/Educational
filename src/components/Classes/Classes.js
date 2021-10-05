@@ -15,8 +15,8 @@ const Classes = () => {
 
 
 
-    const [bodys, setBodys] = useState([]);
-    const [allBodys, setAllBodys] = useState([]);
+    const [bodies, setBodies] = useState([]);
+    const [allBodies, setAllBodies] = useState([]);
 
 
     useEffect(() => {
@@ -24,8 +24,8 @@ const Classes = () => {
             './class.JSON'
         )
             .then((res) => res.json())
-            .then((data) => setAllBodys(data));
-    }, [bodys]);
+            .then((data) => setAllBodies(data));
+    }, [bodies]);
     return (
         <div>
             <MenuBar></MenuBar>
@@ -51,7 +51,7 @@ const Classes = () => {
 
                 <div className="bodys">
                     <div className="row">
-                        {allBodys?.map((pd) => (
+                        {allBodies?.map((pd) => (
                             <div className="col-md-3">
                                 <div className="cart">
                                     <div className="cart-details">
@@ -65,7 +65,7 @@ const Classes = () => {
 
 
                                         <Button className="btn btn-success" onClick={handleShow}>
-                                            Launch demo modal
+                                            Joining Please
                                         </Button>
 
                                         <Modal className="hf" show={show} onHide={handleClose}>

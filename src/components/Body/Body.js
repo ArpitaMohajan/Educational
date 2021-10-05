@@ -21,7 +21,7 @@ const Body = () => {
     return (
         <div className="container all-teams">
             <div className="all-team">
-                <h1>Our School</h1>
+                <h1>Our Music School</h1>
             </div>
             <div className="cart-details ">
 
