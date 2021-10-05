@@ -20,10 +20,10 @@ const Services = () => {
     }, [services]);
     return (
         <div>
-            <MenuBar></MenuBar>
+
 
             <div className="container all-teams">
-
+                <MenuBar></MenuBar>
                 <div className="all-team">
                     <h1>Our Services</h1>
                 </div>
@@ -39,7 +39,7 @@ const Services = () => {
                                     <div className="text-area">
                                         <h4>Name :{pd.name}</h4>
                                         <p>Price: ${pd.price}</p>
-                                        <p>Description:{pd.description}</p>
+                                        <p className="marcuric">Description:{pd.description}</p>
                                         <button className="btn btn-success">Details</button>
 
                                     </div>
