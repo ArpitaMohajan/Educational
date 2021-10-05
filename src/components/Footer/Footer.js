@@ -50,7 +50,7 @@ const Footer = () => {
                         </div>
                         <div className="col-md-5">
                             <div className="right-footer-container">
-                                <h3>Sign up for the newsletter</h3>
+                                <h3>Sign Up here</h3>
                                 <input
                                     className="footer-input"
                                     type="text"
@@ -61,7 +61,7 @@ const Footer = () => {
                                         <FontAwesomeIcon icon={faPhoneVolume} />
                                     </div>
                                     <div>
-                                        <h5>+1 8 800 555 35 35</h5>
+                                        <h5>+1798989565</h5>
                                     </div>
                                 </div>
                                 <div className="map d-flex align-items-center justify-content-center">
