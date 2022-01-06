@@ -57,7 +57,7 @@ const Classes = () => {
                                     <div className="cart-details">
                                         <img className="w-100" src={pd.img} alt="" />
                                     </div>
-                                    <div className="text-area">
+                                    <div className="text-area text-info">
 
                                         <h2>Name:{pd.name} </h2>
                                         <p>Teaching By:{pd.teaching}</p>

@@ -1,0 +1,7 @@
+.cart-details:hover{
+    transform: scale(1.07);
+    transition: 1s ease-out;
+    border: 2px solid #fd09d4 !important;
+  
+  
+}

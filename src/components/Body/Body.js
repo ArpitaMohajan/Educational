@@ -23,28 +23,20 @@ const Body = () => {
             <div className="all-team">
                 <h1>Our Music School</h1>
             </div>
-            <div className="cart-details ">
 
-
-                <img className="w-25 col-md-2 border border-primary border-3 m-3" src={"https://dz01iyojmxk8t.cloudfront.net/wp-content/uploads/2020/11/01125750/indian-classical-music-FB.jpg"
-                } alt="" />
-                <img className="w-25 col-md-2 border border-primary border-3 m-3 " src={"https://th.bing.com/th/id/OIP.spWhKKCTsC9U3TNkg4Se-AHaEN?pid=ImgDet&rs=1"} alt="" />
-
-
-            </div>
 
             <div className="bodys">
                 <div className="row">
                     {allBodys?.map((pd) => (
                         <div className="col-md-3">
-                            <div className="cart">
+                            <div className="cart text-info">
                                 <div className="cart-details">
                                     <img className="w-75" src={pd.img} alt="" />
                                 </div>
                                 <div className="text-area">
                                     <h2>Name :{pd.name}</h2>
                                     <p>Price: ${pd.price}</p>
-                                    <button className="btn btn-success">Details</button>
+                                    <button className="btn submit-btn">Details</button>
 
                                 </div>
                             </div>
